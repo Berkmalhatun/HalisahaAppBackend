@@ -1,0 +1,36 @@
+server:
+  port: 4042
+spring:
+  #Use this to befriend
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: user
+    password: root
+  #  zipkin:
+  #    enabled: true
+  #    base-url: http://localhost:9411
+  #    service:
+  #      name: auth-service
+  data:
+    mongodb:
+      host: localhost
+      port: 27021
+      username: halisahauser
+      password: root
+      database: halisaha
+
+#  security:
+#    user:
+#      name: kullanici
+#      password: 12345
+
+rabbitmq:
+#  queueActivationLink: activation-link-mail-queue
+#  activationLinkBindingKey: activation-link-binding-key
+#  registerStudentAndTrainerBindingKey: register-student-and-trainer-binding-key
+#  registerStudentAndTrainerQueue: register-student-and-trainer-queue
+#  authDirectExchange: auth-direct-exchange

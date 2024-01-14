@@ -1,0 +1,5 @@
+rootProject.name = 'HaliSahaApp'
+include 'Auth'
+include 'User'
+include 'FootballField'
+
